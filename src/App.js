@@ -15,6 +15,10 @@ function App() {
           <label>height (lbs)</label>
           <input type="text" placeholder= "enter height value" value={height} />
         </div>
+        <div>
+          <button className='btn' type='submit'>Submit</button>
+          
+        </div>
       </form>
       </div>
     </div>
