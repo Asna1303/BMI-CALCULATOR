@@ -19,6 +19,10 @@ function App() {
           <button className='btn' type='submit'>Submit</button>
           <button className='btn btn-outline' onClick={reload} type='submit'>Reload</button>
         </div>
+        <div className='center'>
+        <h3>Your BMI is: {bmi}</h3>
+        <p>{message}</p>
+      </div>
       </form>
       </div>
     </div>
