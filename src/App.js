@@ -11,6 +11,10 @@ function App() {
           <label>weight (lbs)</label>
           <input type="text" placeholder= "enter weight value" value={weight} />
         </div>
+        <div>
+          <label>height (lbs)</label>
+          <input type="text" placeholder= "enter height value" value={height} />
+        </div>
       </form>
       </div>
     </div>
