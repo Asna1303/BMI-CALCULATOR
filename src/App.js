@@ -9,6 +9,7 @@ function App() {
       <form>
         <div>
           <label>weight (lbs)</label>
+          <input type="text" placeholder= "enter weight value" value={weight} />
         </div>
       </form>
       </div>
