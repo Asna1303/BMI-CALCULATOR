@@ -27,7 +27,9 @@ function App() {
       }
     }
   }
-  
+  let reload = () => {
+    window.location.reload()
+  }
 
   return (
     <div className="App">
