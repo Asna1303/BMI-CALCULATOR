@@ -40,3 +40,7 @@ input {
   background-color: #fff;
   color: #A6BCDA;
 }
+.center {
+  text-align: center;
+  margin: 24px 0;
+}
