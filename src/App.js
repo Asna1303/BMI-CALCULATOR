@@ -2,8 +2,9 @@ import React , {useState} from 'react';
 import './App.css';
 
 function App() {
-  const [weight, setWeight] = useState(0)
-  const [height, setHeight] = useState(0)
+  const [weight, setWeight] = useState(0);
+  const [height, setHeight] = useState(0);
+  const [bmi, setBmi] = useState('');
   return (
     <div className="App">
       <div classname='container'> 
