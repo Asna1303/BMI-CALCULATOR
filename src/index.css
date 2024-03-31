@@ -36,3 +36,7 @@ input {
   border-radius: 8px;
   cursor: pointer;
 }
+.btn-outline {
+  background-color: #fff;
+  color: #A6BCDA;
+}
