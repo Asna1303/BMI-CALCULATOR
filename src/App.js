@@ -14,11 +14,11 @@ function App() {
       <form>
         <div>
           <label>weight (lbs)</label>
-          <input type="text" placeholder= "enter weight value" value={weight} />
+          <input type="text" placeholder= "enter weight value" value={weight} onChange={(e) => setWeight(e.target.value)} />
         </div>
         <div>
           <label>height (lbs)</label>
-          <input type="text" placeholder= "enter height value" value={height} />
+          <input type="text" placeholder= "enter height value" value={height} onChange={(event) => setHeight(event.target.value)} />
         </div>
         <div>
           <button className='btn' type='submit'>Submit</button>
