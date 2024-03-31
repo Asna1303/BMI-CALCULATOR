@@ -3,6 +3,7 @@ import './App.css';
 
 function App() {
   const [weight, setWeight] = useState(0)
+  const [height, setHeight] = useState(0)
   return (
     <div className="App">
       <div classname='container'> 
